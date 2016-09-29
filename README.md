@@ -4,6 +4,12 @@
 [![Docker Repository on Quay](https://quay.io/repository/prometheus/busybox/status)][quay]
 [![Docker Pulls](https://img.shields.io/docker/pulls/prom/busybox.svg)][hub]
 
+## This is a FORK of the original project
+
+The goal of this fork is provide armhf and arm64 support.
+
+The please look at the branches for the arm architectures.
+
 ## Tags
 
 ### prom/busybox:latest : uClibc
