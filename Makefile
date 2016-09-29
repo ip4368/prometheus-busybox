@@ -11,8 +11,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-REPOSITORY := quay.io/prometheus
-NAME       := busybox
+REPOSITORY := ip4368
+NAME       := prometheus-busybox-arm64
 BRANCH     := $(shell git rev-parse --abbrev-ref HEAD)
 SUFFIX     ?= -$(subst /,-,$(BRANCH))
 VERSIONS   ?= uclibc glibc
